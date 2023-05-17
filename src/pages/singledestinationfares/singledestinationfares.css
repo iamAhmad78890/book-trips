@@ -1,0 +1,22 @@
+.single-destination-content p{
+    font-family: "trebuchet MS";
+    color: #222222;
+    font-size: 12pt;
+    text-align: justify;
+    line-height: 28px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.single-destination-content {
+    font-family: "trebuchet MS";
+    color: #222222;
+    font-size: 12pt;
+    text-align: justify;
+    line-height: 28px;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+.single-destination-content h2 {
+    text-align: center;
+}

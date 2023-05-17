@@ -1,0 +1,198 @@
+.plane__style {
+  position: absolute;
+  left: 50%;
+  font-size: 30px;
+  top: 45%;
+}
+.inquiry-button button {
+  width: 50%;
+}
+.fares__page {
+  margin-top: 20px;
+}
+.fa-whatsapp {
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+.fa-whatsapp:hover {
+  font-size: 30px;
+  color: #075e54;
+}
+
+.non-mob {
+  display: block;
+}
+.button-fares {
+  display: grid;
+  grid-template-columns: auto;
+  position: relative;
+}
+.button-fares button {
+  padding: 10px 0px !important;
+}
+
+.fares__card {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  position: relative;
+}
+.fares--buttons {
+  display: flex;
+}
+.fares__page {
+  position: relative;
+}
+.space__column {
+  margin-bottom: 20px;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.column {
+  flex: 33.33%;
+}
+.fares__travel {
+  display: flex;
+  flex-direction: row;
+}
+.child1 {
+  width: 50%;
+}
+
+.child2 {
+  width: 50%;
+}
+.mob-show-button {
+  display: none;
+}
+.mob-show-button button {
+  width: 50%;
+}
+
+.fares__card__page h1 {
+  font-size: 30px;
+}
+.fares__card__page {
+  border: 4px #ffebeb !important;
+  border-style: solid !important;
+  margin: 6%;
+}
+.fa-phone {
+  background-color: #ff5722 !important;
+  color: #fff;
+  opacity: 0.7;
+  cursor: pointer;
+}
+.fa-phone:hover {
+  background-color: #000 !important;
+  color: #fff;
+  opacity: 1;
+  cursor: pointer;
+}
+.icon__styled i {
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 5px 8px;
+}
+.icon__styled-whatsapp i {
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 2px 4px;
+  background-color: #25d366;
+}
+.icon__styled-whatsapp i:hover {
+  background-color: #075e54;
+}
+.phone__styled {
+  color: black;
+  margin: 5px;
+  cursor: pointer;
+}
+.phone__styled:hover {
+  color: #ff5722;
+}
+.fares__card__page {
+  text-align: center;
+
+  /* border: 1px solid blue; */
+}
+.fa-long-arrow-left {
+  font-size: 30px;
+}
+.fa-long-arrow-right {
+  font-size: 30px;
+  margin-top: 8px;
+}
+.country__name {
+  margin-top: 10px;
+}
+.price__fare {
+  font-weight: 900;
+  font-size: 20px;
+}
+.price__fare i {
+  font-weight: 900;
+  font-size: 20px;
+  padding: 5px;
+}
+.subject__availability {
+  margin-top: 10px !important;
+}
+@media only screen and (max-width: 1282px) {
+  .fares__card {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .fares__card__page h1 {
+    font-size: 15px;
+  }
+  .column {
+    flex: 51%;
+    margin: 10px;
+  }
+  .fares__card__page {
+    margin: 0px;
+  }
+  .plane__style {
+    position: absolute;
+    left: 50%;
+    font-size: 30px;
+    top: 35%;
+  }
+  .non-mob {
+    display: none;
+  }
+  .button-fares {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .mob-show-button {
+    display: block;
+  }
+  .inquiry-button {
+    text-align: center !important;
+    margin-top: 10px;
+    margin-right: 5px;
+  }
+  .inquiry-button button {
+    width: 80%;
+  }
+
+  .mob-show-button {
+    text-align: initial;
+    margin-left: 5px;
+    font-size: 12px;
+  }
+  .mob-show-button button {
+    width: 80%;
+  }
+  .fares__card__page {
+    margin: 20px !important;
+  }
+}

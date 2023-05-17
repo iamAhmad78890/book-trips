@@ -1,0 +1,115 @@
+/* .tours .image-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+} */
+
+
+.row1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.row1 .col  {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.events .row1 {
+    margin-top: 50px;
+}
+.line{
+  width: 150px;
+  height: 4px;
+  background: #fd7c6f;
+  /* margin: 10px auto; */
+  border-radius: 5px;
+}
+.content-col {
+    width: 40%;
+}
+.ctn-button{
+    /* background-color: #fd7c6f !important; */
+  color: #fff;
+    font-weight: 400;
+    height: 50px;
+    font-size: 14px;
+    border: none;
+    width: 40%;
+    border-radius: 40px;
+    text-transform: uppercase;
+    transition: 0.2s all;
+}
+.image-col {
+    width: 60%;
+}.content-col h1{
+    font-size: 7vmin;
+    color: #484872;
+} 
+.content-col .line {
+    margin-left: -1px;
+}
+.content-col p {
+    padding: 0;
+    margin: 30px auto;
+    font-size: 16px;
+}
+.content-col .ctn {
+    margin-left: -100px;
+}
+.tours .image-gallery{
+   display: grid;
+   grid-template-columns: auto auto;
+}
+.image-gallery img {
+    max-width: 300px;
+    margin: 10px;
+}
+.ctn {
+    padding: 8px 15px;
+    background: #fc036b;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+.image-gallery img {
+    transition: transform .3s ease;
+}
+.image-gallery img:hover {
+    transform: scale(1.1);
+}
+@media only screen and (max-width:1000px) {
+    .col img {
+        max-width: 100%;
+    }
+    .row1 {
+        flex-direction: column;
+    }
+    .content-col h1 {
+        font-size: 15px !important;
+    }
+ 
+    .line{
+        width: 100px;
+    }
+    .ctn-button{
+        width: 100%;
+    }
+    .image-gallery{
+        display: grid;
+        grid-template-columns: auto !important;
+        margin-top: 20px;
+     }
+     .content-col {
+        width: 65%;
+    }
+    .image-col {
+        width: 80%;
+    }
+    .image-gallery img {
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,160 @@
+    .plane__img{
+    position: absolute;
+    right: 17%;
+    top: 4%;
+   
+
+  
+    }
+    .searchbar__css{
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding:20px 15px !important;
+    }
+    .search-bar__width{
+        width: 80% !important;
+    }
+
+.planee img {
+  width: 600px !important;  
+  
+}
+#booking{
+    margin-top: 30px;
+}
+.planee{
+   
+    overflow: visible !important;
+}
+.dep-col-dest-col{
+    position: relative;
+
+    
+}
+.aligning-arrival{
+    position: absolute;
+    right: 20%;
+}
+.search__page{
+    height: "500px";
+
+  
+}
+.booking-form{
+    background: none;
+ 
+}
+ .booking-form .form-label {
+    font-size: 13px  ;
+} 
+.form__width-1{
+    width: 29%;
+}
+.change-point-input{
+    right: 11%;
+}
+.form__width{
+    width: 37%;
+    position: relative;
+}
+/* .css-1xs8iq0 .MuiAutocomplete-option {
+    font-size: 50px !important;
+} */
+@media (min-width: 600px) {
+
+.css-b7k0tb-MuiAutocomplete-listbox .MuiAutocomplete-option {
+    min-height: auto;
+    font-size: 15px;
+
+}
+
+}
+.form-control{
+    border-radius: 15px !important;
+ }
+.form-btn{
+    width: 20% !important   ;
+}
+.input__field{
+      display: flex;
+
+}
+.form-btn button{
+    color: #fff;
+    background-color: #f23e3e;
+    font-weight: 400;
+    height: 50px;
+    font-size: 14px;
+    border: none;
+    width: 100%;
+   
+    border-radius: 40px;
+    text-transform: uppercase;
+    transition: 0.2s all;
+}
+.form-btn{
+    position: relative;
+    left: 30%;
+}
+@media screen and (max-width: 600px) {
+.form__width{
+    width: 100%;
+}
+.form__width-1{
+    width: 82%;
+}   
+.form-btn{
+    width: 100% !important;
+}
+.mob-dflex{
+    display: flex;
+
+}
+.mob-dflex > .width_mob{
+    width: 52%;
+}
+.booking-form .form-label {
+    font-size: 7px !important;
+}
+
+  }
+  @media screen and (max-width: 1020px) {
+.form__width{
+    width: 100%;
+}
+.form__width-1{
+    width: 80%;
+}   
+.form-btn{
+    width: 100% !important;
+}
+.form-btn{
+    position: relative;
+    left: 0% ;
+}
+.change-point-input{
+    right: 0%;
+}
+.search__page{
+    height: "200px ";
+
+  
+}
+.aligning-arrival{
+    position: absolute;
+    right: 1% !important;
+}
+.plane__img{
+    position:relative;
+    right: 0%;
+    top: 0%;
+   }
+   .planee img {
+  display: none !important; 
+  }
+  .search-bar__width{
+    width: 100% !important;
+}
+
+  }
+

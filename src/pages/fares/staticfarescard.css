@@ -1,0 +1,268 @@
+.plane__style{
+    position: absolute;
+    left: 50%;
+    font-size: 30px;
+    top: 45%;
+  }
+
+  .fares__deptAirport h6 {
+    font-size: 20px !important;
+  }
+  .fares__destAirport h6 {
+    font-size: 20px !important;
+    
+  } .fares__destAirport  {
+   padding-left: 100px;
+    
+  }
+  .airline__img {
+    width: 100px !important;
+  }
+  .fa-whatsapp:hover{
+    color: #fff;
+    background-color: #000;
+  }
+  .inquiry-button button{
+    width: 50%;
+  }
+  .non-mob{
+    display: block;
+  }
+  .button-fares{
+    display: grid;
+    grid-template-columns: auto   ;
+    position: relative;
+    
+  
+  }
+  .button-fares button {
+    width: 50%;
+  }
+  .button-fares button {
+    padding: 10px 0px  !important;
+  }
+  
+  .fares__card{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    position: relative;
+  
+  }
+  .fares--buttons{
+    display: flex;
+    
+  }
+  .fares__page{
+   position: relative;
+  }
+  .space__column{
+    
+    margin-bottom: 20px;
+  
+  }
+  
+  .columns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .column {
+    flex: 33.33%;
+  }
+  .fares__travel {
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .child1 {
+    width: 50%;
+  
+  }
+  
+  .child2 {
+    width: 50%;
+  
+  
+  
+  }
+  .plane__two__way__img{
+    position: absolute;
+    top: 40%;
+    right: 48%;
+  }
+  .mob-show-button{
+   display: none;
+  }.mob-show-button  button{
+   width: 50%;
+  }
+  
+  .fares__card__page h1{
+    font-size: 30px;
+  }.fares__card__page {
+    border: 4px  #ffebeb !important;
+    border-style: solid !important;
+    position: relative;
+      margin: 6%;
+  }
+  .fa-phone{
+    background-color: #FF5722 !important;
+     color: #fff;
+     opacity: 0.7;
+     cursor: pointer;
+  }.fa-phone:hover{
+    background-color: #000 !important;
+     color: #fff;
+     opacity: 1;
+     cursor: pointer;
+  }
+  .icon__styled i {
+    border: 1px solid;
+      border-radius: 20px;
+      padding: 5px 8px;
+  }
+  .phone__styled{
+    color:black;
+    margin: 5px;
+    cursor: pointer;
+  }
+  .phone__styled:hover{
+  color: #FF5722;
+  }
+  .fares__card__page{
+    text-align: center;
+   
+    /* border: 1px solid blue; */
+  }
+  .fa-long-arrow-left{
+    font-size: 30px;
+  }
+  .fa-long-arrow-right{
+    font-size: 30px;
+    margin-top: 8px;
+  }
+  .country__name{
+   margin-top: 10px;
+  }
+  .price__fare{
+    font-weight: 900;
+    font-size: 50px !important;
+   
+  }
+  .price__fare i{
+    font-weight: 900;
+    font-size: 20px;
+    padding: 5px;
+   
+  }
+  .plane__setting {
+    position: absolute;
+    left: 48%;
+    top:27% !important;
+   }
+   
+   .plane__setting img {
+       width: 50px;
+   }
+  .subject__availability{
+    margin-top: 10px !important;
+  }
+  @media only screen and (max-width: 900px){
+      .fares__card{
+      display: grid;
+      grid-template-columns: auto  ;
+    }
+    .fares__card__page h1{
+      font-size:15px;
+    }
+    .column {
+      flex: 51%;
+  }
+  .fares__card__page {
+  
+     margin: 0px;
+  }
+  .plane__style{
+    position: absolute;
+    left: 50%;
+    font-size: 30px;
+    top: 35%;
+  }
+  
+  .non-mob{
+    display: none;
+  }
+  .button-fares{
+    display: grid;
+    grid-template-columns: auto  ;
+    
+  
+  }
+  .plane__two__way__img{
+    position: absolute;
+    top: 16%;
+    right: 45%;
+  }
+  .button-inquiry {
+    text-align: center;
+  }
+  .mob-show-button{
+    display: block;
+   }
+   .inquiry-button {
+  text-align: end;
+  margin-right: 5px;
+  } .inquiry-button button {
+  width: 80%;
+  }
+  
+  .mob-show-button{
+    text-align: initial;
+    margin-left: 5px;
+    font-size: 12px;
+  }
+  .mob-show-button button{
+  width: 80%;
+  }
+  .fares__card__page{
+    margin: 20px !important;
+  }
+  .button-fares button {
+    width: 50%;
+  }
+  .airline__img {
+    width: 80px !important;
+  }
+  .price__fare{
+    font-weight: 900;
+    font-size: 30px !important;
+   
+  }
+  .price__Section{
+    margin-top: -15px;
+  }
+  .fares__deptAirport h6 {
+    font-size: 12px !important;
+  }
+  .fares__destAirport h6 {
+    font-size: 12px !important;
+  }
+  .fares__destAirport  {
+    padding-left: 0px;
+     
+   }
+   .columns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: -50px;
+  }
+  .plane__setting {
+    position: absolute;
+    left: 44%;
+    top:20% !important;
+   }
+  }

@@ -1,0 +1,82 @@
+.footer-banner{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    margin-top: 60px;
+}
+.footer__banner__heading{
+    text-align: center;
+    margin-top: 100px
+}
+.footer__large__img  img{
+    display: block;
+    width: 100%;
+}
+.footer__large__img__content__mob h2{
+     font-size: 13px !important;
+}
+.footer__large__img__content__mob p{
+     text-align: initial;
+}
+.first_card{
+   display: block;
+   height: 300px;
+    
+}
+.footer__small__img {
+ 
+   width: 100%;
+   display: block;
+}
+
+.footer__small__img img{
+ 
+   width: 100%;
+   display: block;
+}
+
+.footer__banner__image {
+    margin-top: 0px;
+}
+
+.footer__banner__image img{
+ display: block;
+ width: 100%;
+}
+
+@media only screen and (max-width:900px){
+    .footer-banner{
+     
+        grid-template-columns: auto ;
+        /* grid-gap: 20px; */
+        margin-top: 30px;
+    }
+    .footer__small__img  {
+        display: block;
+        width: 100%;
+    }
+    .footer__large__img img{
+        display: block;
+        width: 100%;
+    }
+    .footer__small__img img{
+     
+       width: 100%;
+       display: block;
+    }
+    .footer__banner__image img{
+     display: block;
+     width: 100%;
+    }
+    .footer__large__img__content__mob{
+        display: block;
+    }
+    .first_card{
+        display: block;
+       width: 100%;
+         
+     }
+     .footer__banner__heading h2{
+        font-size: 15px !important;
+     }
+}

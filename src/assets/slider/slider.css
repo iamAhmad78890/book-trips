@@ -1,0 +1,38 @@
+
+.title h1{
+    text-align: center;
+   
+   
+    font-weight: 700;
+    padding-top: 50px;
+    margin: auto;
+    
+}
+.image_wrapper{
+    margin: 0 50px;
+}
+
+.line1{
+    width: 150px ;
+    height: 4px ;
+    background: #fd7c6f ;
+    margin: 10px auto ;
+    border-radius: 5px !;
+    
+  }
+
+  @media screen and (max-width:500px) {
+    title h1 {
+        font-size: 15px !important;
+    }
+    .line1{
+        width: 100px ;
+        height: 4px ;
+        background: #fd7c6f ;
+        margin: 10px auto ;
+        border-radius: 5px !;
+        
+      }
+    
+
+  }

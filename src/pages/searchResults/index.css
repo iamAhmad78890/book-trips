@@ -1,0 +1,108 @@
+.plane__style {
+  position: absolute;
+  left: 50%;
+  font-size: 30px;
+  top: 45%;
+}
+
+.fares__card {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  position: relative;
+}
+.fares__page {
+  position: relative;
+}
+.space__column {
+  margin-bottom: 20px;
+}
+.columns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.column {
+  flex: 33.33%;
+}
+.fares__travel {
+  display: flex;
+  flex-direction: row;
+}
+.child1 {
+  width: 50%;
+}
+
+.child2 {
+  width: 50%;
+}
+
+.fares__card__page h1 {
+  font-size: 30px;
+}
+.fares__card__page {
+  border: 1px solid #ffebeb;
+  margin: 6%;
+}
+.icon__styled i {
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 5px 8px;
+}
+.phone__styled {
+  color: black;
+  margin: 5px;
+  cursor: pointer;
+}
+.phone__styled:hover {
+  color: #ff5722;
+}
+.fares__card__page {
+  text-align: center;
+
+  /* border: 1px solid blue; */
+}
+.fa-long-arrow-left {
+  font-size: 30px;
+}
+.fa-long-arrow-right {
+  font-size: 30px;
+  margin-top: 8px;
+}
+.country__name {
+  margin-top: 10px;
+}
+.price__fare {
+  font-weight: 900;
+  font-size: 20px;
+}
+.price__fare i {
+  font-weight: 900;
+  font-size: 20px;
+  padding: 5px;
+}
+.subject__availability {
+  margin-top: 10px !important;
+}
+@media only screen and (max-width: 900px) {
+  .fares__card {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .fares__card__page h1 {
+    font-size: 15px;
+  }
+  .column {
+    flex: 51%;
+  }
+  .fares__card__page {
+    margin: 0px;
+  }
+  .plane__style {
+    position: absolute;
+    left: 50%;
+    font-size: 30px;
+    top: 35%;
+  }
+}
