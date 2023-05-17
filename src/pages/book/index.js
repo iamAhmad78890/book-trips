@@ -212,7 +212,7 @@ export default function BookNow() {
               </div>
             </div>
             <div className="book__img">
-              <img src="/images/Auckland.jpg" alt="book__image" />
+              <img src="/images/Jinnah_Mausoleum.jpg" alt="book__image" style={{width:"400px",marginTop:"50px"}} />
             </div>
             
           </div>
