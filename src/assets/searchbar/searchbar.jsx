@@ -135,10 +135,7 @@ export default function Searchbar() {
                                             deptt.city
                                           )} - (${convertString(
                                             deptt.airportCode
-                                          )}) - ${convertString(
-                                            deptt.airport
-                                          )} -
-                                ${convertString(deptt.country)}`
+                                          )})  `
                                       )
                                     : [""]
                                 }
@@ -183,10 +180,7 @@ export default function Searchbar() {
                                             deptt.city
                                           )} - (${convertString(
                                             deptt.airportCode
-                                          )}) - ${convertString(
-                                            deptt.airport
-                                          )} -
-                            ${convertString(deptt.country)}`
+                                          )}) `
                                       )
                                     : [""]
                                 }
