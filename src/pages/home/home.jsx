@@ -37,6 +37,7 @@ const Home = () => {
   // console.log(destinations);
   return (
     <div>
+  
       {/* <Democarousel /> */}
       <Searchbar />
       {/* <Cart /> */}

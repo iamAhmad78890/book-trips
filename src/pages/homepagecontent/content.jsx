@@ -39,9 +39,8 @@ const Content = () => {
         <p>
           Our ultimate goal is to take the real pain and give value to every
           customer who is seeking travel services at their doorstep. Being an
-          Online Travel Agency London, we are unique among other market
-          competitors by providing the best rates for flights, holiday packages
-          and other luxury services as per your inquiry.
+          Online Travel Agency Pakistan, we are unique among other market
+          competitors by providing the best rates for flights as per your inquiry.
         </p>
         <div className="line"></div>
       </div>
